@@ -6,8 +6,12 @@ from aiogram.fsm.context import FSMContext
 from aiogram.fsm.state import StatesGroup, State
 from aiogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton, CallbackQuery
 from curl_cffi.requests import AsyncSession
+from dotenv import load_dotenv
 
+load_dotenv()
 dp = Dispatcher()
+
+BOT_TOKEN = os.getenv("BOT_TOKEN")
 
 user_history = {}
 user_favorites = {}
