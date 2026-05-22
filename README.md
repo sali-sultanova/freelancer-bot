@@ -1,3 +1,3 @@
-Телеграм-бот для поиска работы на сайте freelancer.com
+Telegram Bot для поиска вакансий на Freelance.com
 
 Для запуска: /start
